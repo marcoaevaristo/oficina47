@@ -65,7 +65,7 @@ Preencha os campos:
 - **Root Directory:** (deixe vazio)
 - **Environment:** `Python 3`
 - **Build Command:** `pip install -r requirements.txt`
-- **Start Command:** `python app.py`
+- **Start Command:** `gunicorn app:app`
 - **Plan:** `Free` (gratuito)
 
 ### 3.4 Configurações avançadas (opcional)
